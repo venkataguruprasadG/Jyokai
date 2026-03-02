@@ -14,7 +14,7 @@ export class FireLevel extends Scene {
 
     preload() {
         // 1. Load the realistic fire background
-        this.load.image('fire_bg', 'assets/bg_fire.png');
+        this.load.image('fire_bg', 'assets/FireLevel.png');
 
         // Create an in-memory glow texture for realistic embers
         const graphics = this.make.graphics({ x: 0, y: 0, add: false });
