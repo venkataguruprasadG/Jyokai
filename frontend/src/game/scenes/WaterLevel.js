@@ -16,7 +16,7 @@ export class WaterLevel extends Scene {
 
     preload() {
         // Load the new high-quality background
-        this.load.image('water_bg', 'assets/bg_water.png');
+        this.load.image('water_bg', 'assets/WaterLevel.png');
 
         // Creating a small white circle texture for particles in-memory 
         // (This saves you from needing to find a separate bubble image)
